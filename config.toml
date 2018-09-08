@@ -1,0 +1,41 @@
+baseurl = "http://ec2-18-222-173-21.us-east-2.compute.amazonaws.com"
+DefaultContentLanguage = "en"
+title = "Jonathan's Blog"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+homeTitle = "Jonathan's Blog" # Set a different text for the header on the home page
+
+  subtitle = "My Personal Blog of Ramblings"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+
+
+[Author]
+  name = "Jonathan Hamberg"
+  website = "http://ec2-18-222-173-21.us-east-2.compute.amazonaws.com"
+  email = "jonathanhamberg@gmail.com"
+  github = "Jonathan-Hamberg"
+  linkedin = "jonathanhamberg"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
