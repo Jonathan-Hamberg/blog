@@ -1,16 +1,15 @@
-baseurl = "http://ec2-18-222-173-21.us-east-2.compute.amazonaws.com"
+baseurl = "http://jonathanhamberg.com"
 DefaultContentLanguage = "en"
 title = "Jonathan's Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+# pygmentsStyle = "trac"
+# pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
 
 [Params]
-homeTitle = "Jonathan's Blog" # Set a different text for the header on the home page
-
+  homeTitle = "Jonathan's Blog"
   subtitle = "My Personal Blog of Ramblings"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
@@ -19,13 +18,13 @@ homeTitle = "Jonathan's Blog" # Set a different text for the header on the home 
   rss = true
   comments = true
   readingTime = true
-  useHLJS = true
-  socialShare = true
+  useHLJS = false
+  socialShare = false
 
 
 [Author]
   name = "Jonathan Hamberg"
-  website = "http://ec2-18-222-173-21.us-east-2.compute.amazonaws.com"
+  website = "jonathanhamberg.com"
   email = "jonathanhamberg@gmail.com"
   github = "Jonathan-Hamberg"
   linkedin = "jonathanhamberg"
@@ -37,5 +36,5 @@ homeTitle = "Jonathan's Blog" # Set a different text for the header on the home 
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "about/"
     weight = 3

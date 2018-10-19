@@ -1,16 +1,9 @@
 ---
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
+subtitle: A little about me.
 comments: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Jonathan Hamberg.  I am currently working at Jeeva Wireless as a Firmware Engineer.  I just graduated with my Bachelors from Electrical Engineering department at the University of Washington.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I hope to provide some insightful articles about embedded programming, shell scripts, and anything else that I find interesting.

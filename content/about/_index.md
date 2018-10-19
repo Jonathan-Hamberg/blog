@@ -1,6 +1,9 @@
 ---
-title: "About"
-date: 2018-09-07T21:08:17-07:00
+title: About Me
+subtitle: A little about me.
+comments: false
 ---
 
-This is a test about me page.
+My name is Jonathan Hamberg.  I am currently working at Jeeva Wireless as a Firmware Engineer.  I just graduated with my Bachelors from Electrical Engineering department at the University of Washington.
+
+I hope to provide some insightful articles about embedded programming, shell scripts, and anything else that I find interesting.
