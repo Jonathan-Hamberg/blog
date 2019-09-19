@@ -1,5 +1,5 @@
 ---
-title: TestDisk Saved My Bacon
+title: TestDisk Saved My Data
 subtitle: Using Testdisk to Recover a Formatted Partition
 date: 2018-10-17
 tags: ["linux", "data recovery"]
