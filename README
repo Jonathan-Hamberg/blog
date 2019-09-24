@@ -1,2 +1,1 @@
 aws s3 sync . s3://jonathanhamberg.com --acl public-read
-http://jonathanhamberg.com.s3-website.us-east-2.amazonaws.com/
