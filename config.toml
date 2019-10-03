@@ -3,6 +3,8 @@ DefaultContentLanguage = "en"
 title = "Jonathan's Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
+googleAnalytics = "UA-149351241-1"
+
 # pygmentsStyle = "trac"
 # pygmentsUseClasses = true
 # pygmentsCodeFences = true
