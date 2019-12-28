@@ -5,11 +5,6 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 googleAnalytics = "UA-149351241-1"
 
-# pygmentsStyle = "trac"
-# pygmentsUseClasses = true
-# pygmentsCodeFences = true
-# pygmentsCodefencesGuessSyntax = true
-
 [Params]
   homeTitle = "Jonathan's Blog"
   subtitle = "My Personal Blog of Ramblings"
