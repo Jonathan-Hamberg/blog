@@ -1,4 +1,4 @@
-baseurl = "http://jonathanhamberg.com"
+baseurl = "https://jonathanhamberg.com"
 DefaultContentLanguage = "en"
 title = "Jonathan's Blog"
 theme = "beautifulhugo"
