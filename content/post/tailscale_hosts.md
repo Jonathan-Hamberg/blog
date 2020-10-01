@@ -1,7 +1,7 @@
 ---
 title: Tailscale Hosts
 subtitle:
-date: 2020-05-16
+date: 2020-05-19
 tags: ["wireguard", "vpn", "python"]
 draft: false
 
@@ -10,11 +10,7 @@ draft: false
 
 # Tailscale Hosts
 
-```shell
-pip install git+https://www.gitlab.com/jhamberg/tailscale-hosts.git
-```
-
-Tailscale automically keeps track of all the connected peers with their ip address and hostname.  Tailscale does not by default allow access to the devices by their hostname which can be a hassle.  This means that you always have to look up the Tailscale IP address of the peer in the network.  It would be nice to have a program to alloww access to the peers by their hostnames.
+Last [post](https://jonathanhamberg.com/post/wireguard-using-tailscale/) I talked about how to set up a mesh network of WireGuard peers using a service called Tailscale.  One of my only complaints is that sometimes it's hard to keep track of the IP address assigned to all the peers.  Tailscale automatically keeps track of all the connected peers with their IP address and hostname.  This is where my program [tailscale-hosts](https://gitlab.com/jhamberg/tailscale-hosts) comes in.  It parses the output of the `tailscale status --json` command append the hostname and IP address to the /etc/hosts for easy access.  Here is an example of what information is included in the tailscale status command.
 
 ```shell
 tailscale status
@@ -25,9 +21,7 @@ tailscale status
 
 ```
 
-The tailscale status command has all the information we need to be able to start using the human readable peer names.  Here you can see that all my PC are named after science fiction starships.
-
-
+The tailscale status command has all the information we need to be able to start using the human readable peer names.  Here you can see that all my PC are named after science fiction starship.  Below is an example of how the tailscale-hosts command works.
 
 ```shell
 # here we can see that we are not able to connect to the peer by it's hostname
@@ -54,4 +48,8 @@ ping awing
 ping: awing: Name or service not known
 ```
 
-Eventually I plan on putting tailscale-hosts on pip, but for now it's just a repo.
+Right now only GNU/Linux is supported, because that's the only platform that has a tailscale client that programatically exposes the peers hostnames.  Eventually the tailscale-hosts package will get put on pip to make the instalation to new computers easier.
+
+# Conclusion
+
+tailscale-hosts makes it very simple to add human readable hostnames to access remote peers instead of hard coded IP addresses.  Which reduces the mental load needed to connect to these services.
