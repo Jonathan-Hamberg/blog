@@ -2,7 +2,7 @@
 title: Raspberry Pi IR Receiver
 subtitle:
 date: 2019-12-12
-tags: ["python", "raspberry pi", "math"]
+tags: ["python", "raspberry pi"]
 ---
 I recently got my hands on a IR Receiver and Transmitter module from a [ELEGOO Upgraded 37 in 1 Sensor Modules Kit V2.0](https://www.elegoo.com/product/elegoo-upgraded-37-in-1-sensor-modules-kit-v2-0/).  I wanted to learn how the technology works and figure how to the IR transmitter with my Raspberry Pi 4.
 

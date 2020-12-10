@@ -1,0 +1,9 @@
+name = "blog-worker"
+type = "webpack"
+account_id = "98174f80f28c14508b707853f78a43df"
+route = "jonathanhamberg.com/*"
+zone_id = "d18ac286e3c72c276f4f9c8dcdac364f"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"

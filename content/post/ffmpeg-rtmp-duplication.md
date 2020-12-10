@@ -15,6 +15,9 @@ Typically you would use a service like [Restream](https://restream.io/) to achom
 
 The problem with restream is that it only supported streaming to external destinations and would not work to restream the the local network.
 
+# NGINX
+One populare way to achieve this outcome of taking 1 RTMP stream and duplicating the stream to multiple destinations is using NGINX.  NGINX is a fully featured web searver that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.  One of it's third party modules adds support for RTMP.  So to get the desired outcome you would host a NGINX web server instance, and then in the configuration file you would indicate the destinations of the duplicated stream.  This is a lot of work for a seemingly simple task of duplicating a RTMP stream.  It may be more reliable, but there is a simpler way using another program.
+
 # FFMPEG
 This is where ffmpeg comes into play.  ffmpeg is a complete, cross-fortform solution to record, convert and stream audio and video.  Originally I though ffmpeg was just used for transcoding video and audio from one format to another format.  I recently learned that ffmpeg is very versitile with it's inputs and destinations.  The destination can be a file or in our case a RTMP server.
 

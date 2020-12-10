@@ -2,7 +2,7 @@
 title: Decreasing Elf Size
 subtitle: max-page-size
 date: 2018-10-04
-tags: ["gcc", "arm", "embedded"]
+tags: ["gcc", "embedded"]
 ---
 Recently I had a problem of reducing the size of an ARM executable that was being loaded onto a embedded platform with only 640K of flash storage.  I ran into an issue where the executable was much larger than it should have been.
 

@@ -1,37 +1,62 @@
 baseurl = "https://jonathanhamberg.com"
 DefaultContentLanguage = "en"
 title = "Jonathan's Blog"
-theme = "beautifulhugo"
+theme = "erblog"
 metaDataFormat = "yaml"
 googleAnalytics = "UA-149351241-1"
+disqusShortName = "jonathanhamberg"
 
 [Params]
-  homeTitle = "Jonathan's Blog"
-  subtitle = "My Personal Blog of Ramblings"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  useHLJS = false
-  socialShare = false
+author = "Jonathan Hamberg"
+homeTitle = "Jonathan's Blog"
+subtitle = "My Personal Blog of Ramblings"
+logo = "img/Jonathan128_V2.jpg"
+portrait = "img/Jonathan128_V2.jpg"
+favicon = "img/favicon.jpg"
+dateFormat = "January 2, 2006"
+bio = """My name is Jonathan Hamberg. \n\n I am currently working at Jeeva Wireless as a Firmware Engineer.<br><br>  I have a BSEE from the University of Washington.<br><br>  I hope to provide some insightful articles about <p>embedded programming, shell scripts, and anything else that I find interesting.
+"""
+description = "a random blog about whatever I want"
+commit = false
+rss = true
+comments = true
+readingTime = true
+useHLJS = false
+socialShare = false
 
 
 [Author]
-  name = "Jonathan Hamberg"
-  website = "jonathanhamberg.com"
-  email = "jonathanhamberg@gmail.com"
-  github = "Jonathan-Hamberg"
-  linkedin = "jonathanhamberg"
+name = "Jonathan Hamberg"
+website = "jonathanhamberg.com"
+email = "jonathanhamberg@gmail.com"
+github = "Jonathan-Hamberg"
+linkedin = "jonathanhamberg"
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
+# [[menu.main]]
+#     name = "Blog"
+#     url = ""
+#     weight = 1
+
+# [[menu.main]]
+#     name = "About"
+#     url = "about/"
+#     weight = 3
+[[menu.icon]]
+    url = "mailto:jonathanhamberg@gmail.com"
+    name = "envelope-o"
     weight = 1
 
-[[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 3
+[[menu.icon]]
+    url = "https://github.com/Jonathan-Hamberg/"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://gitlab.com/jhamberg/"
+    name = "gitlab"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://linkedin.com/in/jonathanhamberg"
+    name = "linkedin"
+    weight = 1
