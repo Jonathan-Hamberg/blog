@@ -62,7 +62,7 @@ sox output.wav output.mp3
 
 # SCRIPT USAGE
 
-I wrote a simple shell script to expedite the process of ripping audio books to by desktop.  The script is currently only around 150 lines of code with comments.  Once on my desktop I can just copy the compressed output files to my phone to listen to on the bus.  My script is available on [GitHub](https://raw.githubusercontent.com/Jonathan-Hamberg/dotfiles/master/.local/bin/cdripper) for reference.
+I wrote a simple shell script to expedite the process of ripping audio books to by desktop.  The script is currently only around 150 lines of code with comments.  Once on my desktop I can just copy the compressed output files to my phone to listen to on the bus.  My script is available on [here](/files/cdripper.sh) for reference.
 
 The goals of the script were to automate the ripping process.  Desired features
 
