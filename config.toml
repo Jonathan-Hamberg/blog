@@ -14,7 +14,7 @@ logo = "img/Jonathan128_V2.jpg"
 portrait = "img/Jonathan128_V2.jpg"
 favicon = "img/favicon.jpg"
 dateFormat = "January 2, 2006"
-bio = """My name is Jonathan Hamberg. \n\n I am currently working at Jeeva Wireless as a Firmware Engineer.<br><br>  I have a BSEE from the University of Washington.<br><br>  I hope to provide some insightful articles about <p>embedded programming, shell scripts, and anything else that I find interesting.
+bio = """My name is Jonathan Hamberg. \n\n I am currently working at Meta as a Wireless Firmware Engineer.<br><br>  I have a BSEE from the University of Washington.<br><br>  I hope to provide some insightful articles about <p>embedded programming, shell scripts, and anything else that I find interesting.
 """
 description = "a random blog about whatever I want"
 commit = false
