@@ -37,7 +37,7 @@ extern const char *kGitHash;
 #endif // GIT_VERSION_H
 ```
 
-Here is the source of the git_version.h.in
+Here is the source of the git_version.cpp.in
 
 ```c
 #include "git_version.h"
