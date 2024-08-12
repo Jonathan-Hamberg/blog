@@ -1,2 +1,6 @@
 public
 themes
+.DS_Store
+.wrangler
+content/post/.obsidian/
+node_modules

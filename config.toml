@@ -3,16 +3,16 @@ DefaultContentLanguage = "en"
 title = "Jonathan's Blog"
 theme = "erblog"
 metaDataFormat = "yaml"
-googleAnalytics = "UA-149351241-1"
+# googleAnalytics = "UA-149351241-1"
 disqusShortName = "jonathanhamberg"
 
 [Params]
 author = "Jonathan Hamberg"
 homeTitle = "Jonathan's Blog"
 subtitle = "My Personal Blog of Ramblings"
-logo = "img/Jonathan128_V2.jpg"
-portrait = "img/Jonathan128_V2.jpg"
-favicon = "img/favicon.jpg"
+# logo = "img/Jonathan128_V2.jpg"
+# portrait = "img/Jonathan128_V2.jpg"
+# favicon = "img/favicon.jpg"
 dateFormat = "January 2, 2006"
 bio = """My name is Jonathan Hamberg. \n\n I am currently working at Meta as a Wireless Firmware Engineer.<br><br>  I have a BSEE from the University of Washington.<br><br>  I hope to provide some insightful articles about <p>embedded programming, shell scripts, and anything else that I find interesting.
 """
@@ -32,15 +32,6 @@ email = "jonathanhamberg@gmail.com"
 github = "Jonathan-Hamberg"
 linkedin = "jonathanhamberg"
 
-# [[menu.main]]
-#     name = "Blog"
-#     url = ""
-#     weight = 1
-
-# [[menu.main]]
-#     name = "About"
-#     url = "about/"
-#     weight = 3
 [[menu.icon]]
     url = "mailto:jonathanhamberg@gmail.com"
     name = "envelope-o"

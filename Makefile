@@ -1,3 +1,3 @@
 deploy:
 	hugo
-	wrangler publish
+	wrangler deploy
